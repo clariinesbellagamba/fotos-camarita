@@ -73,3 +73,7 @@ button:hover {
     font-size: 16px;
     margin-bottom: 25px;
 }
+.album-link {
+    text-decoration: none;
+    color: inherit;
+}
