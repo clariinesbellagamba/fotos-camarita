@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos Camarita</title>
+</head>
+<body>
+
+<h1>📸 Fotos Camarita</h1>
+
+<p>Ingresá la contraseña para ver los álbumes.</p>
+
+<input type="password" id="password" placeholder="Contraseña">
+<button onclick="entrar()">Entrar</button>
+
+<div id="contenido" style="display:none; margin-top:30px;">
+
+    <h2>📂 Álbumes</h2>
+
+    <div>
+        <h3>🎂 Cumple Chloe</h3>
+        <p>Próximamente...</p>
+    </div>
+
+    <div>
+        <h3>🎀 Cumple Palo</h3>
+        <p>Próximamente...</p>
+    </div>
+
+</div>
+
+<script>
+function entrar(){
+    const contraseña = "camarita2026";
+
+    if(document.getElementById("password").value === contraseña){
+        document.getElementById("contenido").style.display = "block";
+    }else{
+        alert("Contraseña incorrecta.");
+    }
+}
+</script>
+
+</body>
+</html>
