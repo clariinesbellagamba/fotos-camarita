@@ -55,6 +55,17 @@ button:hover {
 }.logo {
     font-size: 65px;
     margin-bottom: 10px;
+}h2 {
+    color: #8ecae6;
+}
+
+.album {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.album:hover {
+    transform: translateY(-5px);
 }
 
 .subtitle {
