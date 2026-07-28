@@ -77,3 +77,16 @@ button:hover {
     text-decoration: none;
     color: inherit;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 15px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
