@@ -52,4 +52,13 @@ button:hover {
     padding: 15px;
     border-radius: 18px;
     margin: 15px 0;
+}.logo {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 25px;
 }
